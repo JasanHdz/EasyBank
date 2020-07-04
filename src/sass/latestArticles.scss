@@ -1,0 +1,31 @@
+.latestArticles {
+  padding: 5em 0;
+  background: var(--lightGray);
+  .title {
+    text-align: center;
+  }
+  &__grid {
+    display: grid;
+    grid-row-gap: 2em;
+  }
+  &__item {
+    border-radius: .5em;
+    overflow: hidden;
+    background: var(--white);
+    padding: 0 1.8em;
+    img {
+      object-fit: cover;
+      margin: 0 calc(-1 * 2em);
+      width: calc(100% + 4em);
+      margin-bottom: 2em;
+    }
+    .copy {
+      color: var(--grayBlue);
+    }
+    small {
+      color: var(--grayBlue);
+      margin-bottom: 1em;
+      display: block;
+    }
+  }
+}
