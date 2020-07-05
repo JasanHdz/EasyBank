@@ -1,5 +1,4 @@
 .menu {
-  // border: 3px solid blue;
   list-style: none;
   display: none;
   padding: 0;
@@ -28,7 +27,6 @@
     display: none;
     &:checked {
       & ~ .menu__button {
-        // border: 1px solid red;
         background: url("../images/icon-close.svg") no-repeat center;
       }
       & ~ .menu {
@@ -55,6 +53,7 @@
           padding: .8em;
           display: block;
           text-align: center;
+          flex: 1;
         }
       }
     }

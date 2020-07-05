@@ -1,9 +1,11 @@
 .header {
-  // border: 1px solid red;
   padding: 1em 0;
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: var(--white);
   .wrapper {
     width: 100%;
   }
